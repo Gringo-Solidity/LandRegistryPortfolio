@@ -1,22 +1,39 @@
 # LandRegistry Smart Contract
 
-A smart contract for decentralized land registration and ownership management.
+This is a basic land registration smart contract built in Solidity, designed to register and track land plots on the Ethereum blockchain.
 
-## Features
+##  Features
 
-- Register a plot with unique coordinates
-- Ownership transfer between users
-- Owner-only administrative controls (fee setting, withdrawal)
-- Verified on Tenderly
+- Register land plots by coordinates.
+- Store and retrieve land data by plot ID.
+- Mapping of ownership.
+- Prevent duplicate registrations by coordinates.
+- Publicly readable storage.
 
-## Deployment
+##  Verified on Tenderly
 
-- Network: Sepolia (chainId 11155111)
-- Contract address: 0xd886c799592d0a0a13df9c3e75043c989acc15bd
-- Verified on Tenderly: Yes
+This contract was deployed and verified on the "Sepolia Testnet" using Tenderly.
 
-## Author
+>  Contract Address: `0xd886c799592d0a0a13df9c3e75043c989acc15bd`  
+>  Network: Sepolia  
+>  Etherscan: View on Sepolia Etherscan (https://sepolia.etherscan.io/address/0xd886c799592d0a0a13df9c3e75043c989acc15bd)
 
-**Andrei Mikhailovich** – Solidity Developer & Land Law Expert 🇷🇺
+Tenderly Verification (./tenderly-verification-landregistry.png)
 
-Contact: @Andrei_Shapkin (Telegram)
+##  Tech Stack
+
+- "Solidity" ^0.8.20
+- "Remix IDE" for development and deployment
+- "Tenderly" for contract verification and simulation
+- "MetaMask" for testing transactions
+
+##  Files
+
+- `LandRegistry.sol` – Main contract logic
+- `README.md` – Project overview
+- `tenderly-verification-landregistry.png` – Screenshot from Tenderly
+
+
+
+ Contact: [@Andrei_Shapkin](https://t.me/Andrei_Shapkin)  
+ GitHub: [Gringo-Solidity](https://github.com/Gringo-Solidity)
