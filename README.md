@@ -14,7 +14,7 @@ This is a basic land registration smart contract built in Solidity, designed to 
 
 This contract was deployed and verified on the "Sepolia Testnet" using Tenderly.
 
->  Contract Address: `0xd886c799592d0a0a13df9c3e75043c989acc15bd`  
+>  Contract Address:  (0xd886c799592d0a0a13df9c3e75043c989acc15bd)
 >  Network: Sepolia  
 >  Etherscan: View on Sepolia Etherscan (https://sepolia.etherscan.io/address/0xd886c799592d0a0a13df9c3e75043c989acc15bd)
 
